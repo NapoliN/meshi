@@ -11,6 +11,7 @@
       </v-col>
 
       <v-col class="mb-4">
+        <router-link to="/about">Go to About</router-link>
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to the Vuetify 3 Beta
         </h1>

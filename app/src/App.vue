@@ -1,5 +1,8 @@
 <template>
   <v-app>
+    <v-app-bar>
+      <v-toolbar-title> 飯 </v-toolbar-title>
+    </v-app-bar>
     <v-main>
       <HelloWorld/>
     </v-main>
