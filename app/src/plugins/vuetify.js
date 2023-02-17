@@ -16,6 +16,7 @@ export default createVuetify({
           primary: "#F97316",
           secondary: "#C2410C", // #FFCDD2
           secondary2: "#FB923C",
+          secondary3: "#FED7AA",
           accent: "#3B82F6",
         }
       },
