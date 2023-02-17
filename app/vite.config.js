@@ -32,7 +32,7 @@ export default defineConfig({
     outDir: '../docs',
     
   },
-  publicDir: '../public',
+  publicDir: './public',
   /* remove the need to specify .vue files https://vitejs.dev/config/#resolve-extensions
   resolve: {
     extensions: [
