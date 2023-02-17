@@ -35,7 +35,7 @@ export default {
             if(src == null){
                 return NoImage
             }
-            return "/img/" + src;
+            return "./img/" + src;
         }
     }
 }
