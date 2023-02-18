@@ -149,28 +149,28 @@
   },
   {
     "name" : "itokito",
-    "genre" : "banguette",
+    "genre" : "baguette",
     "area" : "大岡山北エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
   {
     "name" : "ショーマッカー",
-    "genre" : "banguette",
+    "genre" : "baguette",
     "area" : "大岡山北エリア",
     "image" : null,
     "tags" : ["パン屋","テイクアウトのみ","ドイツ系"]
   },
   {
     "name" : "リトルマーメイド",
-    "genre" : "banguette",
+    "genre" : "baguette",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
   {
     "name" : "Himmel",
-    "genre" : "banguette",
+    "genre" : "baguette",
     "area" : "大岡山南エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
@@ -188,5 +188,19 @@
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["中華", "お弁当販売"]
+  },
+  {
+    "name" : "メロンパンファクトリー",
+    "genre" : "baguette",
+    "area" : "大岡山北エリア",
+    "image" : "meron-pan.jpg",
+    "tags" : ["パン屋", "テイクアウトのみ"]
+  },
+  {
+    "name" : "らーめん専科 しま坂",
+    "genre" : "noodles",
+    "area" : "大岡山北エリア",
+    "image" : "shimasaka.jpg",
+    "tags" : ["ラーメン", "家系", "学割", "安価"]
   }
 ]
