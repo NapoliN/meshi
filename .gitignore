@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # develop image
-app/public/
+# app/public/
