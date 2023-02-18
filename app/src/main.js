@@ -1,18 +1,21 @@
 import { createApp } from 'vue'
-import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
+
+import App from '@/App.vue'
+import Top from './routes/Top.vue'
+import Area from '@/routes/Area.vue'
 
 loadFonts()
 
 const routes = [
-  { path: '/', component: App },
-  { path: '/about', component: App },
+  { path: '/', component: Top },
+  { path: '/area', component: Area },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 })
 
