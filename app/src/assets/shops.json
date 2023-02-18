@@ -1,12 +1,5 @@
 [
-  {
-    "name": "マック",
-    "genre" : "hamburger",
-    "area": "大岡山駅近エリア",
-    "image" : null,
-    "tags": ["安価", "ファストフード"],
-    "description": ""
-  },
+
   {
     "name": "四川屋台",
     "genre": "rice",
@@ -21,13 +14,7 @@
     "image": "kokoro.jpg",
     "tags": ["麺類","台湾混ぜそば"]
   },
-  {
-    "name": "餃子の王将",
-    "genre": "rice",
-    "area" : "大岡山駅近エリア",
-    "image" : null,
-    "tags" : ["安価", "中華"]
-  },
+
   {
     "name": "山本のハンバーグ",
     "genre": "rice",
@@ -63,33 +50,13 @@
     "image" : "shidda-ruta.jpg",
     "tags" : ["ナン", "おかわり可"]
   },
-  {
-    "name" : "松屋",
-    "genre" : "rice",
-    "area" : "大岡山北エリア",
-    "image" : null,
-    "tags" : ["安価"]
-  },
+
   {
     "name" : "たんや",
     "genre" : "noodles",
     "area" : "大岡山南エリア",
     "image" : "tanya.jpg",
     "tags" : ["担々麺","麺類"]
-  },
-  {
-    "name" : "ひるがお",
-    "genre" : "noodles",
-    "area" : "大岡山駅近エリア",
-    "image": null,
-    "tags" : ["麺類","塩ラーメン","おかわり可"]
-  },
-  {
-    "name" : "長浜ナンバーワン",
-    "genre" : "noodles",
-    "area" : "大岡山北エリア",
-    "image": null,
-    "tags" : ["麺類", "博多ラーメン", "おかわり可"]
   },
   {
     "name" : "珈琲館",
@@ -171,7 +138,7 @@
   {
     "name" : "Himmel",
     "genre" : "baguette",
-    "area" : "大岡山南エリア",
+    "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
@@ -202,5 +169,55 @@
     "area" : "大岡山北エリア",
     "image" : "shimasaka.jpg",
     "tags" : ["ラーメン", "家系", "学割", "安価"]
+  },
+  {
+    "name": "マック",
+    "genre" : "hamburger",
+    "area": "大岡山駅近エリア",
+    "image" : null,
+    "tags": ["安価", "ファストフード"],
+    "description": ""
+  },
+  {
+    "name": "餃子の王将",
+    "genre": "rice",
+    "area" : "大岡山駅近エリア",
+    "image" : null,
+    "tags" : ["安価", "中華"]
+  },
+  {
+    "name" : "ひるがお",
+    "genre" : "noodles",
+    "area" : "大岡山駅近エリア",
+    "image": null,
+    "tags" : ["麺類","塩ラーメン","おかわり可"]
+  },
+  {
+    "name" : "松屋",
+    "genre" : "rice",
+    "area" : "大岡山北エリア",
+    "image" : null,
+    "tags" : ["安価"]
+  },
+  {
+    "name" : "長浜ナンバーワン",
+    "genre" : "noodles",
+    "area" : "大岡山北エリア",
+    "image": null,
+    "tags" : ["麺類", "博多ラーメン", "おかわり可"]
+  },
+  {
+    "name" : "漁師料理 九絵",
+    "genre" : "rice",
+    "area" : "大岡山北エリア",
+    "image" : null,
+    "tags" : ["海鮮", "高級"]
+  },
+  {
+    "name" : "プロムナード ダイニング",
+    "genre" : "rice",
+    "area" : "大岡山駅近エリア",
+    "image" : null,
+    "tags" : ["カレー"]
   }
 ]
