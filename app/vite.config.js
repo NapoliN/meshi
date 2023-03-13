@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vuetify from 'vite-plugin-vuetify'
+import { VitePluginFonts } from 'vite-plugin-fonts'
 
 const path = require('path')
 
@@ -12,6 +13,13 @@ export default defineConfig({
     vuetify({
       autoImport: true,
     }),
+    VitePluginFonts({
+      google: {
+        families: [
+          'M PLUS 2'
+        ]
+      }
+    })
   ],
   server: {
     watch: {

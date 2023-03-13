@@ -19,12 +19,12 @@
             <template v-slot:activator="{ props }">
               <v-list-item class="py-4" v-bind="props"> 大岡山飯 </v-list-item>
             </template>
-            <v-list-item class="py-4" value="all">一覧</v-list-item>
-            <v-list-item class="py-4" value="search_area"> 
+            <v-list-item class="py-4" @click="toHome" value="all">一覧</v-list-item>
+            <v-list-item class="py-4" @click="toArea" value="search_area"> 
               <v-icon class="px-2" icon="mdi-map-marker-circle"></v-icon>
               エリアから探す
             </v-list-item>
-            <v-list-item class="py-4" value="search_genre">
+            <v-list-item class="py-4" @click="toGenre" value="search_genre">
               <v-icon class="px-2" icon="mdi-basket"></v-icon>
               ジャンルから探す
             </v-list-item>
@@ -46,7 +46,7 @@
 
     <v-main>
       <router-view></router-view>
-      
+
     </v-main>
   </v-app>
 </template>
@@ -58,11 +58,26 @@ export default {
   data: () => ({
     drawer: false,
   }),
+  methods: {
+    toHome(){
+      this.$router.push("/")
+    },
+    toArea(){
+      this.$router.push("/area")
+    },
+    toGenre(){
+      this.$router.push("/genre")
+    }
+  }
 };
 </script>
 
 <style>
 .custom-bg {
   background: rgb(var(--v-theme-base)) !important;
+}
+
+.v-application{
+    font-family: "M Plus 2" !important;
 }
 </style>

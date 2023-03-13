@@ -7,12 +7,14 @@ import App from '@/App.vue'
 import Top from './routes/Top.vue'
 import Area from '@/routes/Area.vue'
 import Trip from '@/routes/Trip.vue'
+import Details from '@/routes/Details.vue'
 
 loadFonts()
 
 const routes = [
   { path: '/', component: Top },
   { path: '/area', component: Area },
+  { path: '/details', component: Details},
   { path: '/trip', component: Trip}
 ]
 
