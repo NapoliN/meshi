@@ -9,7 +9,7 @@
         <hr :color="$vuetify.theme.themes.light.colors.primary" width="100%">
     </v-row>
     <v-row>
-        <v-col v-for="shop in shops" cols="4">
+        <v-col v-for="shop in shops" cols="12" sm="6" md="4">
         <ShopCard :shop="shop"></ShopCard>
         </v-col>
     </v-row>
