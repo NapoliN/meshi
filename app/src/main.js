@@ -6,12 +6,14 @@ import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router
 import App from '@/App.vue'
 import Top from './routes/Top.vue'
 import Area from '@/routes/Area.vue'
+import Trip from '@/routes/Trip.vue'
 
 loadFonts()
 
 const routes = [
   { path: '/', component: Top },
   { path: '/area', component: Area },
+  { path: '/trip', component: Trip}
 ]
 
 const router = createRouter({

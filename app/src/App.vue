@@ -7,9 +7,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
+      
     </v-app-bar>
     <v-navigation-drawer
         app
@@ -17,9 +15,32 @@
         color="secondary3"
       >
       <v-list density="compact" nav class="px-0">
-          <v-list-item class="pa-4" value="all">一覧</v-list-item>
-          <v-list-item class="pa-4" value="search_area">エリアから探す</v-list-item>
-          <v-list-item class="pa-4" value="search_genre">ジャンルから探す</v-list-item>
+          <v-list-group>
+            <template v-slot:activator="{ props }">
+              <v-list-item class="py-4" v-bind="props"> 大岡山飯 </v-list-item>
+            </template>
+            <v-list-item class="py-4" value="all">一覧</v-list-item>
+            <v-list-item class="py-4" value="search_area"> 
+              <v-icon class="px-2" icon="mdi-map-marker-circle"></v-icon>
+              エリアから探す
+            </v-list-item>
+            <v-list-item class="py-4" value="search_genre">
+              <v-icon class="px-2" icon="mdi-basket"></v-icon>
+              ジャンルから探す
+            </v-list-item>
+            <v-list-item class="py-4">
+              <v-icon class="px-2" icon="mdi-dice-multiple"></v-icon>
+              今日のご飯(準備中)
+            </v-list-item>
+          </v-list-group>
+
+          <v-list-group>
+            <template v-slot:activator="{ props }">
+              <v-list-item class="pa-4" v-bind="props"> 旅行飯 </v-list-item>
+            </template>
+            <v-list-item class="pa-4" value="trip_area"> 地域別 </v-list-item>
+            <v-list-item class="pa-4" value="trip_time"> 時期別 </v-list-item>
+          </v-list-group>
       </v-list>  
     </v-navigation-drawer>
 
