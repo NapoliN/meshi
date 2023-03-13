@@ -1,7 +1,9 @@
 <template>
     <v-container>
     <v-row class="mt-3">
-        <h1>一覧</h1>
+        <v-col>
+            <h1>一覧</h1>
+        </v-col>
     </v-row>
     <v-row class="mb-3">
         <hr :color="$vuetify.theme.themes.light.colors.primary" width="100%">

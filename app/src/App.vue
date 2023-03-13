@@ -17,15 +17,15 @@
         color="secondary3"
       >
       <v-list density="compact" nav class="px-0">
-          <v-list-item class="pa-4" value="all">一覧</v-list-item>
-          <v-list-item class="pa-4" value="search_area">エリアから探す</v-list-item>
-          <v-list-item class="pa-4" value="search_genre">ジャンルから探す</v-list-item>
+          <v-list-item class="pa-4" @click="toHome" value="all">一覧</v-list-item>
+          <v-list-item class="pa-4" @click="toArea" value="search_area">エリアから探す</v-list-item>
+          <v-list-item class="pa-4" @click="toGenre" value="search_genre">ジャンルから探す</v-list-item>
       </v-list>  
     </v-navigation-drawer>
 
     <v-main>
       <router-view></router-view>
-      
+
     </v-main>
   </v-app>
 </template>
@@ -37,11 +37,26 @@ export default {
   data: () => ({
     drawer: false,
   }),
+  methods: {
+    toHome(){
+      this.$router.push("/")
+    },
+    toArea(){
+      this.$router.push("/area")
+    },
+    toGenre(){
+      this.$router.push("/genre")
+    }
+  }
 };
 </script>
 
 <style>
 .custom-bg {
   background: rgb(var(--v-theme-base)) !important;
+}
+
+.v-application{
+    font-family: "M Plus 2" !important;
 }
 </style>
