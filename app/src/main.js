@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
-import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import App from '@/App.vue'
 import Top from './routes/Top.vue'
