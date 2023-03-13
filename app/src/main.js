@@ -12,9 +12,9 @@ import Details from '@/routes/Details.vue'
 loadFonts()
 
 const routes = [
-  { path: '/', component: Top },
-  { path: '/area', component: Area },
-  { path: '/details', component: Details},
+  { path: '/ohokayama', component: Top },
+  { path: '/ohokayama/area', component: Area },
+  { path: '/ohokayama/details', component: Details},
   { path: '/trip', component: Trip}
 ]
 

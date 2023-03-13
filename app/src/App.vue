@@ -60,13 +60,13 @@ export default {
   }),
   methods: {
     toHome(){
-      this.$router.push("/")
+      this.$router.push("/ohokayama")
     },
     toArea(){
-      this.$router.push("/area")
+      this.$router.push("/ohokayama/area")
     },
     toGenre(){
-      this.$router.push("/genre")
+      this.$router.push("/ohokayama/genre")
     }
   }
 };
