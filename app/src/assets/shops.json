@@ -105,14 +105,14 @@
     "name" : "ガスト",
     "genre" : "rice",
     "area" : "大岡山駅近エリア",
-    "image" : null,
+    "image" : "gast.jpg",
     "tags" : ["多人数可"]
   },
   {
     "name" : "カレーハウス CoCo壱番屋",
     "genre" : "rice",
     "area" : "大岡山北エリア",
-    "image" : null,
+    "image" : "coco1.jpg",
     "tags" : ["カレー"]
   },
   {
