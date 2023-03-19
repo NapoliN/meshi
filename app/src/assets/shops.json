@@ -2,7 +2,8 @@
 
   {
     "name": "四川屋台",
-    "genre": "rice",
+    "icon": "rice",
+    "genre" : "中華",
     "area": "大岡山駅近エリア",
     "image": "shisen.jpg",
     "tags": ["中華", "安価", "満腹", "お弁当販売"],
@@ -10,7 +11,8 @@
   },
   {
     "name": "麺屋こころ",
-    "genre": "noodles",
+    "icon": "noodles",
+    "genre" : "麺類",
     "area": "大岡山南エリア",
     "image": "kokoro.jpg",
     "tags": ["麺類","台湾混ぜそば"]
@@ -18,35 +20,40 @@
 
   {
     "name": "山本のハンバーグ",
-    "genre": "rice",
+    "icon": "rice",
+    "genre" : "洋食",
     "area" : "大岡山北エリア",
     "image" : "yamamoto-no-hamburg.jpg",
     "tags" : ["おすすめ","おかわり可"]
   },
   {
     "name" : "お好み焼き 佐竹",
-    "genre" : "food-variant",
+    "icon" : "food-variant",
+    "genre" : "和食",
     "area" : "大岡山駅近エリア",
     "image" : "satake.jpg",
     "tags" : ["おすすめ", "満腹","広島風"]
   },
   {
     "name": "やぶそば",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "和食",
     "area" : "大岡山南エリア",
     "image" : "yabu.jpg",
     "tags" : ["安価", "定食"]
   },
   {
     "name": "油そば専門店 歌志軒",
-    "genre": "noodles",
+    "icon": "noodles",
+    "genre" : "麺類",
     "area": "大岡山駅近エリア",
     "image": "kaziken.jpg",
     "tags" : ["安価", "満腹"]
   },
   {
     "name": "シッダールタ",
-    "genre": "barley",
+    "icon": "barley",
+    "genre" : "その他海外料理",
     "area" : "大岡山駅近エリア",
     "image" : "shidda-ruta.jpg",
     "tags" : ["ナン", "おかわり可"]
@@ -54,35 +61,40 @@
 
   {
     "name" : "たんや",
-    "genre" : "noodles",
+    "icon" : "noodles",
+    "genre" : "麺類",
     "area" : "大岡山南エリア",
     "image" : "tanya.jpg",
     "tags" : ["担々麺","麺類"]
   },
   {
     "name" : "珈琲館",
-    "genre" : "coffee",
+    "icon" : "coffee",
+    "genre" : "軽食",
     "area" : "大岡山駅近エリア",
     "image" : "coffee-kan.jpg",
     "tags" : ["コーヒー", "軽食"]
   },
   {
     "name": "志波田",
-    "genre" : "food-variant",
+    "icon" : "food-variant",
+    "genre" : "和食",
     "area" : "大岡山北エリア",
     "image" : "shibata.jpg",
     "tags" : ["蕎麦", "海鮮"]
   },
   {
     "name" : "そば縁肆 さか本",
-    "genre" : "food-variant",
+    "icon" : "food-variant",
+    "genre" : "和食",
     "area" : "大岡山駅近エリア",
     "image" : "sakamoto.jpg",
     "tags" : ["蕎麦", "おすすめ", "日替わりランチ"]
   },
   {
     "name" : "Cafe Hermitage",
-    "genre" : "pasta",
+    "genre" : "麺類",
+    "icon" : "pasta",
     "area" : "大岡山北エリア",
     "image" : "hermitage.jpg",
     "tags" : ["パスタ", "雰囲気良"]
@@ -90,90 +102,103 @@
   {
     "name" : "もつ鍋らく",
     "gernre" : "rice",
+    "genre" : "和食",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["ランチ", "定食", "飲み"]
   },
   {
     "name" : "サイゼリヤ",
-    "genre" : "pasta",
+    "icon" : "pasta",
+    "genre" : "洋食",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["安価", "イタリアン", "多人数可"]
   },
   {
     "name" : "ガスト",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "洋食",
     "area" : "大岡山駅近エリア",
     "image" : "gast.jpg",
     "tags" : ["多人数可"]
   },
   {
     "name" : "カレーハウス CoCo壱番屋",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "ファストフード",
     "area" : "大岡山北エリア",
     "image" : "coco1.jpg",
     "tags" : ["カレー"]
   },
   {
     "name" : "itokito",
-    "genre" : "baguette",
+    "icon" : "baguette",
+    "genre" : "パン",
     "area" : "大岡山北エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
   {
     "name" : "ショーマッカー",
-    "genre" : "baguette",
+    "icon" : "baguette",
+    "genre" : "パン",
     "area" : "大岡山北エリア",
     "image" : null,
     "tags" : ["パン屋","テイクアウトのみ","ドイツ系"]
   },
   {
     "name" : "リトルマーメイド",
-    "genre" : "baguette",
+    "icon" : "baguette",
+    "genre" : "パン",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
   {
     "name" : "Himmel",
-    "genre" : "baguette",
+    "icon" : "baguette",
+    "genre" : "パン",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
   {
     "name" : "bb.qオリーブチキンカフェ",
-    "genre" : "hamburger",
+    "icon" : "hamburger",
+    "genre" : "その他海外料理",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["チキン","ハンバーガー"]
   },
   {
     "name" : "華宴",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "中華",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["中華", "お弁当販売"]
   },
   {
     "name" : "メロンパンファクトリー",
-    "genre" : "baguette",
+    "icon" : "baguette",
+    "genre" : "パン",
     "area" : "大岡山北エリア",
     "image" : "meron-pan.jpg",
     "tags" : ["パン屋", "テイクアウトのみ"]
   },
   {
     "name" : "らーめん専科 しま坂",
-    "genre" : "noodles",
+    "icon" : "noodles",
+    "genre" : "麺類",
     "area" : "大岡山北エリア",
     "image" : "shimasaka.jpg",
     "tags" : ["ラーメン", "家系", "学割", "安価"]
   },
   {
     "name": "マック",
-    "genre" : "hamburger",
+    "icon" : "hamburger",
+    "genre" : "ファストフード",
     "area": "大岡山駅近エリア",
     "image" : null,
     "tags": ["安価", "ファストフード"],
@@ -181,42 +206,48 @@
   },
   {
     "name": "餃子の王将",
-    "genre": "rice",
+    "icon": "rice",
+    "genre" : "中華",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["安価", "中華"]
   },
   {
     "name" : "ひるがお",
-    "genre" : "noodles",
+    "icon" : "noodles",
+    "genre" : "麺類",
     "area" : "大岡山駅近エリア",
     "image": null,
     "tags" : ["麺類","塩ラーメン","おかわり可"]
   },
   {
     "name" : "松屋",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "ファストフード",
     "area" : "大岡山北エリア",
     "image" : null,
     "tags" : ["安価"]
   },
   {
     "name" : "長浜ナンバーワン",
-    "genre" : "noodles",
+    "icon" : "noodles",
+    "genre" : "麺類",
     "area" : "大岡山北エリア",
     "image": null,
     "tags" : ["麺類", "博多ラーメン", "おかわり可"]
   },
   {
     "name" : "漁師料理 九絵",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "和食",
     "area" : "大岡山北エリア",
     "image" : null,
     "tags" : ["海鮮", "高級"]
   },
   {
     "name" : "プロムナード ダイニング",
-    "genre" : "rice",
+    "icon" : "rice",
+    "genre" : "和食",
     "area" : "大岡山駅近エリア",
     "image" : null,
     "tags" : ["カレー"]
