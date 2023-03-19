@@ -3,7 +3,7 @@
     <v-app-bar app color="primary">
       <v-app-bar-nav-icon @click.stop="drawer=!drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>飯ぶ</v-toolbar-title>
+      <v-toolbar-title class="py-0"><v-btn size="ex-large" @click="toHome" class="py-0">飯ぶ</v-btn></v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -19,7 +19,7 @@
             <template v-slot:activator="{ props }">
               <v-list-item class="py-4" v-bind="props"> 大岡山飯 </v-list-item>
             </template>
-            <v-list-item class="py-4" @click="toHome" value="all">一覧</v-list-item>
+            <v-list-item class="py-4" @click="toTop" value="all">一覧</v-list-item>
             <v-list-item class="py-4" @click="toArea" value="search_area"> 
               <v-icon class="px-2" icon="mdi-map-marker-circle"></v-icon>
               エリアから探す
@@ -60,6 +60,9 @@ export default {
   }),
   methods: {
     toHome(){
+      this.$router.push("/")
+    },
+    toTop(){
       this.$router.push("/ohokayama")
     },
     toArea(){
@@ -81,3 +84,4 @@ export default {
     font-family: "M Plus 2" !important;
 }
 </style>
+
