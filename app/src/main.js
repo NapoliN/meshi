@@ -8,7 +8,7 @@ import App from '@/App.vue'
 import Top from './routes/Top.vue'
 import Area from '@/routes/Area.vue'
 import Trip from '@/routes/Trip.vue'
-import Details from '@/routes/Details.vue'
+import Detail from '@/routes/Detail.vue'
 import Genre from '@/routes/Genre.vue'
 
 loadFonts()
@@ -18,7 +18,7 @@ const routes = [
   { path: '/ohokayama', component: Top },
   { path: '/ohokayama/area', component: Area },
   { path: '/ohokayama/genre', component: Genre},
-  { path: '/ohokayama/details', component: Details},
+  { path: '/ohokayama/detail', component: Detail},
   { path: '/trip', component: Trip}
 ]
 

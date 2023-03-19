@@ -1,5 +1,5 @@
 <template>
-    <v-card color="base" elevation="4" @click="toDetails(shop.name)">
+    <v-card color="base" elevation="4" @click="toDetail(shop.name)">
         <v-img :src="render_img(shop.image)" cover class="text-white"> </v-img>
         <v-container>
         <v-row>
@@ -37,10 +37,10 @@ export default {
             }
             return "./img/" + src;
         },
-        toDetails(shopName){
+        toDetail(shopName){
             this.$router.push(
             {
-                path: "/details",
+                path: "/ohokayama/detail",
                 query: {name: shopName}
             }
             )
