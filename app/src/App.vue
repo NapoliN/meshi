@@ -61,7 +61,11 @@
       
       
       <router-view></router-view>
-
+      <v-container>
+        <v-row justify="end">
+          <p>※ ここに記載している評価は全て個人の感想です。真実は自分の口で確かめてみてください。</p>
+        </v-row>
+      </v-container>
     </v-main>
   </v-app>
 </template>
