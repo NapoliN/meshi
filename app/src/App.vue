@@ -6,9 +6,23 @@
       <v-toolbar-title class="py-0"><v-btn size="ex-large" @click="toHome" class="py-0">飯ぶ</v-btn></v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-btn icon="mdi-heart"> </v-btn>
+      <v-btn icon @click="info_activator = !info_activator">
+        <v-icon>mdi-dots-vertical</v-icon>
+        <v-menu activator="parent">
+          <v-card>
+            <v-container>
+              <v-row>
+                <v-col>
+                  <v-btn flat icon="mdi-github" href="https://github.com/NapoliN"></v-btn>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-card>
+      </v-menu>
+      </v-btn>
       
     </v-app-bar>
+
     <v-navigation-drawer
         app
         v-model="drawer"
@@ -43,8 +57,9 @@
           </v-list-group>
       </v-list>  
     </v-navigation-drawer>
-
     <v-main>
+      
+      
       <router-view></router-view>
 
     </v-main>
@@ -57,6 +72,7 @@ export default {
   name: "App",
   data: () => ({
     drawer: false,
+    info_activator : true
   }),
   methods: {
     toHome(){

@@ -1,3 +1,4 @@
+import "core-js";
 import { createApp } from 'vue'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
