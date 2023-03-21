@@ -4,7 +4,7 @@
           <v-col cols="3">
             <v-sheet elevation="3">
                 <v-list rounded="lg">
-                <v-list-item link>
+                <v-list-item>
                   <v-icon icon="mdi-map-marker"></v-icon>{{ this.detail.area }}
                 </v-list-item>
                 
@@ -36,12 +36,7 @@
                     <v-img :src="render_img(this.detail.image)" cover class="text-white"> </v-img>
                   </v-col>
                   <v-col cols="4">
-                    <v-container>
-                      <v-row>
-                        <h2>量:★★★</h2>
-                        <h2></h2>
-                      </v-row>
-                    </v-container>
+
                     <p>{{ this.detail.description }}</p>
                   </v-col>
                 </v-row>

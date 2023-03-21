@@ -50,10 +50,10 @@
 
           <v-list-group>
             <template v-slot:activator="{ props }">
-              <v-list-item class="pa-4" v-bind="props"> 旅行飯 </v-list-item>
+              <v-list-item class="pa-4" v-bind="props"> 旅行飯(準備中) </v-list-item>
             </template>
-            <v-list-item class="pa-4" value="trip_area"> 地域別 </v-list-item>
-            <v-list-item class="pa-4" value="trip_time"> 時期別 </v-list-item>
+            <v-list-item class="pa-4"> 地域別 </v-list-item>
+            <v-list-item class="pa-4"> 時期別 </v-list-item>
           </v-list-group>
       </v-list>  
     </v-navigation-drawer>
