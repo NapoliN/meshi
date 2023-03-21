@@ -48,7 +48,7 @@
 
                 <v-row>
                   <v-col>
-                    <iframe :src=this.detail.map width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe :src=this.detail.map width="66%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </v-col>
                 </v-row>
               </v-container>
@@ -63,6 +63,7 @@
 
 <script>
 import Shops from "@/assets/shops.json";
+import NoImage from "@/assets/NoImage.png?url";
 
 export default {
     name: "Details",

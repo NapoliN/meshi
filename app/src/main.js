@@ -10,6 +10,7 @@ import Area from '@/routes/Area.vue'
 import Trip from '@/routes/Trip.vue'
 import Detail from '@/routes/Detail.vue'
 import Genre from '@/routes/Genre.vue'
+import Random from '@/routes/Random.vue'
 
 loadFonts()
 
@@ -19,6 +20,7 @@ const routes = [
   { path: '/ohokayama/area', component: Area },
   { path: '/ohokayama/genre', component: Genre},
   { path: '/ohokayama/detail', component: Detail},
+  { path: '/ohokayama/random', component: Random},
   { path: '/trip', component: Trip}
 ]
 

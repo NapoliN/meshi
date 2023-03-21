@@ -3,6 +3,7 @@
     <v-row class="mt-3">
         <v-col>
             <h1>一覧</h1>
+            <p>一度以上行ったことのある店のみ掲載しています。</p>
         </v-col>
     </v-row>
     <v-row class="mb-3">

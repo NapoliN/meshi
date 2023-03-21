@@ -1,6 +1,6 @@
 <template>
-    <v-card color="base" elevation="4" @click="toDetail(shop.name)">
-        <v-img :src="render_img(shop.image)" cover class="text-white"> </v-img>
+    <v-card color="base" elevation="4" @click="toDetail(shop.name)" min-height="420px">
+        <v-img :src="render_img(shop)" cover class="text-white"> </v-img>
         <v-container>
         <v-row>
             <v-col>
@@ -32,10 +32,10 @@ export default {
     }),
     methods: {
         render_img : (src) => {
-            if(src == null){
+            if(src == null || src.image == null){
                 return NoImage
             }
-            return "./img/" + src;
+            return "./img/" + src.image;
         },
         toDetail(shopName){
             this.$router.push(

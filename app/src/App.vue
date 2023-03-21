@@ -28,7 +28,7 @@
               <v-icon class="px-2" icon="mdi-basket"></v-icon>
               ジャンルから探す
             </v-list-item>
-            <v-list-item class="py-4">
+            <v-list-item class="py-4" @click="toRandom">
               <v-icon class="px-2" icon="mdi-dice-multiple"></v-icon>
               今日のご飯(準備中)
             </v-list-item>
@@ -70,6 +70,9 @@ export default {
     },
     toGenre(){
       this.$router.push("/ohokayama/genre")
+    },
+    toRandom(){
+      this.$router.push("/ohokayama/random")
     }
   }
 };
