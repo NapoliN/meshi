@@ -297,7 +297,7 @@
     "icon" : "rice",
     "genre" : "和食",
     "area" : "大岡山北エリア",
-    "image" : null,
+    "image" : "kue.jpg",
     "description" : "孤独のグルメで紹介された店で、たまに行列を見かける。海鮮系の定食が食べれる店。値段設定はかなり高いが、その分量もしっかりある。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51900.29126733539!2d139.65019556292702!3d35.60878396551935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e3d1d6495%3A0x46bd2999bbbd2a34!2z5ryB5bir5paZ55CGIOS5nee1tQ!5e0!3m2!1sja!2sjp!4v1679324230050!5m2!1sja!2sjp",
     "tags" : ["海鮮", "高級"]
