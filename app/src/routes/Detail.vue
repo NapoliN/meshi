@@ -32,10 +32,10 @@
                   </v-col>
                 </v-row>
                 <v-row>
-                  <v-col cols="4">
+                  <v-col cols="12" md="6">
                     <v-img :src="render_img(this.detail.image)" cover class="text-white"> </v-img>
                   </v-col>
-                  <v-col cols="4">
+                  <v-col cols="12" md="6">
 
                     <p>{{ this.detail.description }}</p>
                   </v-col>
@@ -43,7 +43,7 @@
 
                 <v-row>
                   <v-col>
-                    <iframe :src=this.detail.map width="66%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe :src=this.detail.map width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </v-col>
                 </v-row>
               </v-container>
