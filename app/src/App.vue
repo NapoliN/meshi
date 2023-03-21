@@ -6,7 +6,7 @@
       <v-toolbar-title class="py-0"><v-btn size="ex-large" @click="toHome" class="py-0">飯ぶ</v-btn></v-toolbar-title>
 
       <v-spacer></v-spacer>
-
+      <v-btn icon="mdi-heart"> </v-btn>
       
     </v-app-bar>
     <v-navigation-drawer
