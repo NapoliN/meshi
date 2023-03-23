@@ -12,6 +12,7 @@ import Trip from '@/routes/Trip.vue'
 import Detail from '@/routes/Detail.vue'
 import Genre from '@/routes/Genre.vue'
 import Random from '@/routes/Random.vue'
+import TopTrip from '@/routes/trip/TopTrip.vue'
 
 loadFonts()
 
@@ -22,7 +23,7 @@ const routes = [
   { path: '/ohokayama/genre', component: Genre},
   { path: '/ohokayama/detail', component: Detail},
   { path: '/ohokayama/random', component: Random},
-  { path: '/trip', component: Trip}
+  { path: '/trip', component: TopTrip}
 ]
 
 const router = createRouter({

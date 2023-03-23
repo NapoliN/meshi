@@ -52,6 +52,7 @@
             <template v-slot:activator="{ props }">
               <v-list-item class="pa-4" v-bind="props"> 旅行飯(準備中) </v-list-item>
             </template>
+            <v-list-item link class="pa-4" @click="toTripTop"> 一覧 </v-list-item>
             <v-list-item class="pa-4"> 地域別 </v-list-item>
             <v-list-item class="pa-4"> 時期別 </v-list-item>
           </v-list-group>
@@ -93,6 +94,9 @@ export default {
     },
     toRandom(){
       this.$router.push("/ohokayama/random")
+    },
+    toTripTop(){
+      this.$router.push("/trip")
     }
   }
 };
