@@ -1,7 +1,7 @@
 <template>
   <v-app id="inspire" class="custom-bg">
     <v-app-bar app color="primary">
-      <v-app-bar-nav-icon @click.stop="drawer=!drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon icon="mdi-menu" @click.stop="drawer=!drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title class="py-0"><v-btn size="ex-large" @click="toHome" class="py-0">飯ぶ</v-btn></v-toolbar-title>
 
@@ -30,8 +30,8 @@
       >
       <v-list density="compact" nav class="px-0">
           <v-list-group>
-            <template v-slot:activator="{ props }">
-              <v-list-item class="py-4" v-bind="props"> 大岡山飯 </v-list-item>
+            <template v-slot:activator="{ props, isOpen }">
+              <v-list-item class="py-4" v-bind="props"> <v-icon :icon="isOpen ? 'mdi-menu-down' : 'mdi-menu-right'"></v-icon> 大岡山飯 </v-list-item>
             </template>
             <v-list-item class="py-4" @click="toTop" value="all">一覧</v-list-item>
             <v-list-item class="py-4" @click="toArea" value="search_area"> 
@@ -49,8 +49,8 @@
           </v-list-group>
 
           <v-list-group>
-            <template v-slot:activator="{ props }">
-              <v-list-item class="pa-4" v-bind="props"> 旅行飯(準備中) </v-list-item>
+            <template v-slot:activator="{ props, isOpen }">
+              <v-list-item class="py-4" v-bind="props"> <v-icon :icon="isOpen ? 'mdi-menu-down' : 'mdi-menu-right'"></v-icon> 旅行飯(準備中) </v-list-item>
             </template>
             <v-list-item link class="pa-4" @click="toTripTop"> 一覧 </v-list-item>
             <v-list-item class="pa-4"> 地域別 </v-list-item>

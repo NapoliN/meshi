@@ -1,6 +1,7 @@
 [
     {
         "name": "撰 利久 仙台パルコ2店",
+        "icon" : "fa:fas fa-solid fa-cow",
         "prefecture": "宮城県",
         "city": "仙台市",
         "visit_date": "2023/3/18",
@@ -8,6 +9,7 @@
     },
     {
         "name": "まぐろ屋 明神丸",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture": "宮城県",
         "city": "女川町",
         "visit_date": "2023/3/18",
@@ -15,6 +17,7 @@
     },
     {
         "name": "極上担々麺 香家 目黒東口店",
+        "icon" : "mdi-noodles",
         "prefecture": "東京都",
         "city": "品川区",
         "visit_date": "2023/3/17",
@@ -23,12 +26,14 @@
     {
         "name": "きしめん亭 エスカ店",
         "prefecture": "愛知県",
+        "icon" : "mdi-noodles",
         "city": "名古屋市",
         "visit_date": "2023/3/8",
         "image": "kishimen_tei.jpg"
     },
     {
         "name": "さかなやま 本場伏見店",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture": "愛知県",
         "city": "名古屋市",
         "visit_date": "2023/3/8",
@@ -36,6 +41,7 @@
     },
     {
         "name": "ダフネ珈琲館 エスカ店",
+        "icon" : "fa:fas fa-mug-saucer",
         "prefecture": "愛知県",
         "city": "名古屋市",
         "visit_date": "2023/3/8",
@@ -43,6 +49,7 @@
     },
     {
         "name": "矢場とん ラシック店",
+        "icon" : "mdi-pig-variant",
         "prefecture": "愛知県",
         "city": "名古屋市",
         "visit_date": "2023/3/6",
@@ -50,6 +57,7 @@
     },
     {
         "name": "コロムビア",
+        "icon" : "mdi-pig-variant",
         "prefecture": "群馬県",
         "city": "下仁田町",
         "visit_date": "2023/3/6",
@@ -57,6 +65,7 @@
     },
     {
         "name": "鴨だしらぁ麺 轟",
+        "icon" : "fa:fas fa-duck",
         "prefecture": "神奈川県",
         "city": "川崎市",
         "visit_date": "2023/3/1",
@@ -64,6 +73,7 @@
     },
     {
         "name": "お宿 平の家",
+        "icon" : "mdi-noodles",
         "prefecture": "群馬県",
         "city": "草津町",
         "visit_date": "2023/2/23",
@@ -71,6 +81,7 @@
     },
     {
         "name": "みっちゃん総本店 広島駅新幹線口 ekie店",
+        "icon" : "fa:fas fa-wheat-awn",
         "prefecture": "広島県",
         "city": "広島市",
         "visit_date": "2023/2/14",
@@ -78,6 +89,7 @@
     },
     {
         "name": "尾道ラーメン 暁",
+        "icon" : "mdi-noodles",
         "prefecture": "広島県",
         "city": "広島市",
         "visit_date": "2023/2/14",
@@ -85,6 +97,7 @@
     },
     {
         "name": "お好み焼き てっちゃん",
+        "icon" : "mdi-noodles",
         "prefecture": "広島県",
         "city": "三原市",
         "visit_date": "2023/2/12",
@@ -92,6 +105,7 @@
     },
     {
         "name": "炙屋 十兵衛",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture": "宮城県",
         "city": "仙台市",
         "visit_date": "2022/10/25",
@@ -99,6 +113,7 @@
     },
     {
         "name": "大黒寿司",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture": "青森県",
         "city": "青森市",
         "visit_date": "2022/10/24",
@@ -106,6 +121,7 @@
     },
     {
         "name": "手打ちうどん こんぴら茶屋",
+        "icon" : "mdi-noodles",
         "prefecture": "東京都",
         "city": "品川区",
         "visit_date": "2022/10/22",
@@ -113,6 +129,7 @@
     },
     {
         "name": "まぐろのなかだ屋 TOC店",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture": "東京都",
         "city": "品川区",
         "visit_date": "2022/10/9",
@@ -120,6 +137,7 @@
     },
     {
         "name": "Harvest Cafe",
+        "icon" : "fa:fas fa-mug-saucer",
         "prefecture": "北海道",
         "city": "倶知安町",
         "visit_date": "2022/8/10",
@@ -127,6 +145,7 @@
     },
     {
         "name": "大砲ラーメン 天神今泉店",
+        "icon" : "mdi-noodles",
         "prefecture": "福岡県",
         "city": "福岡市",
         "visit_date": "2022/8/3",
@@ -134,6 +153,7 @@
     },
     {
         "name": "はなびし",
+        "icon" : "fa:fas fa-solid fa-cow",
         "prefecture": "熊本県",
         "city": "阿蘇市",
         "visit_date": "2022/8/3",
@@ -141,6 +161,7 @@
     },
     {
         "name": "レストラン東洋軒 トキハ別府店",
+        "icon" : "fa:fas fa-drumstick-bite",
         "prefecture": "大分県",
         "city": "別府市",
         "visit_date": "2022/8/3",
@@ -148,6 +169,7 @@
     },
     {
         "name": "喫茶蓮華",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture": "大分県",
         "city": "宇佐市",
         "visit_date": "2022/8/2",
@@ -155,6 +177,7 @@
     },
     {
         "name": "伽哩本舗",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture": "福岡県",
         "city": "北九州市",
         "visit_date": "2022/8/1",
@@ -162,6 +185,7 @@
     },
     {
         "name": "お食事処はるかぜ",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture": "奈良県",
         "city": "吉野町",
         "visit_date": "2022/4/4",
@@ -169,6 +193,7 @@
     },
     {
         "name": "くろす",
+        "icon" : "mdi-noodles",
         "prefecture": "奈良県",
         "city": "大和郡山市",
         "visit_date": "2022/4/3",
@@ -176,6 +201,7 @@
     },
     {
         "name": "和食 一条 東向通店",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture": "奈良県",
         "city": "奈良市",
         "visit_date": "2022/4/3",
@@ -183,6 +209,7 @@
     },
     {
         "name" : "ふくすけ",
+        "icon" : "mdi-noodles",
         "prefecture" : "三重県",
         "city" : "伊勢市",
         "visit_date" : "2022/4/2",
@@ -190,6 +217,7 @@
     },
     {
         "name" : "青葉亭 仙台エスパル店",
+        "icon" : "fa:fas fa-solid fa-cow",
         "prefecture" : "宮城県",
         "city" : "仙台市",
         "visit_date" : "2022/3/24",
@@ -197,6 +225,7 @@
     },
     {
         "name" : "中華そば 佐々木",
+        "icon" : "mdi-noodles",
         "prefecture" : "山形県",
         "city" : "遊佐町",
         "visit_date" : "2022/3/23",
@@ -204,6 +233,7 @@
     },
     {
         "name" : "しらかわ",
+        "icon" : "mdi-noodles",
         "prefecture" : "岐阜県",
         "city" : "高山市",
         "visit_date" : "2022/3/2",
@@ -211,6 +241,7 @@
     },
     {
         "name" : "キッチンなごや",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture" : "愛知県",
         "city" : "名古屋市",
         "visit_date" : "2022/3/1",
@@ -218,6 +249,7 @@
     },
     {
         "name" : "RIVERBED COFFEE BREWER&ROASTERY",
+        "icon" : "fa:fas fa-mug-saucer",
         "prefecture" : "岐阜県",
         "city" : "中津川市",
         "visit_date" : "2022/3/1",
@@ -225,6 +257,7 @@
     },
     {
         "name" : "沼津魚がし鮨 本店",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture" : "静岡県",
         "city" : "沼津市",
         "visit_date" : "2022/2/17",
@@ -232,6 +265,7 @@
     },
     {
         "name" : "やきそば まとや",
+        "icon" : "mdi-noodles",
         "prefecture" : "静岡県",
         "city" : "富士宮市",
         "visit_date" : "2022/2/16",
@@ -239,6 +273,7 @@
     },
     {
         "name" : "ゆたか屋",
+        "icon" : "mdi-noodles",
         "prefecture" : "山梨県",
         "city" : "身延町",
         "visit_date" : "2022/2/16",
@@ -246,6 +281,7 @@
     },
     {
         "name" : "８番らーめん 金沢駅店",
+        "icon" : "mdi-noodles",
         "prefecture" : "石川県",
         "city" : "金沢市",
         "visit_date" : "2021/11/28",
@@ -253,6 +289,7 @@
     },
     {
         "name" : "カツ丼 野村",
+        "icon" : "mdi-pig-variant",
         "prefecture" : "岡山県",
         "city" : "岡山市",
         "visit_date" : "2021/11/27",
@@ -260,6 +297,7 @@
     },
     {
         "name" : "ラーメン海鳴 博多デイトス店",
+        "icon" : "mdi-noodles",
         "prefecture" : "福岡県",
         "city" : "福岡市",
         "visit_date" : "2021/11/27",
@@ -267,6 +305,7 @@
     },
     {
         "name" : "自家製麺 嵐山うどん おづる",
+        "icon" : "mdi-noodles",
         "prefecture" : "京都府",
         "city" : "京都市",
         "visit_date" : "2021/11/26",
@@ -274,6 +313,7 @@
     },
     {
         "name" : "牛たん 焼助 仙台駅牛たん通り店",
+        "icon" : "fa:fas fa-solid fa-cow",
         "prefecture" : "宮城県",
         "city" : "仙台市",
         "visit_date" : "2021/9/25",
@@ -281,6 +321,7 @@
     },
     {
         "name" : "廻鮮寿司塩釜港 極 鎌田 マリンゲート店",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture" : "宮城県",
         "city" : "塩竈市",
         "visit_date" : "2021/9/25",
@@ -288,6 +329,7 @@
     },
     {
         "name" : "知覧茶屋",
+        "icon" : "fa:fas fa-solid fa-fish fa-shake",
         "prefecture" : "鹿児島県",
         "city" : "知覧町",
         "visit_date" : "2021/9/12",
@@ -295,6 +337,7 @@
     },
     {
         "name" : "木ノ花キッチン",
+        "icon" : "fa:fas fa-drumstick-bite",
         "prefecture" : "宮崎県",
         "city" : "宮崎市",
         "visit_date" : "2021/9/8",
@@ -302,6 +345,7 @@
     },
     {
         "name" : "宇都宮みんみん 本店",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture" : "栃木県",
         "city" : "宇都宮市",
         "visit_date" : "2021/8/29",
@@ -309,6 +353,7 @@
     },
     {
         "name" : "ばりきや",
+        "icon" : "mdi-noodles",
         "prefecture" : "北海道",
         "city" : "札幌市",
         "visit_date" : "2021/7/7",
@@ -316,6 +361,7 @@
     },
     {
         "name" : "座りや",
+        "icon" : "mdi-noodles",
         "prefecture" : "神奈川県",
         "city" : "箱根町",
         "visit_date" : "2021/6/9",
@@ -323,6 +369,7 @@
     },
     {
         "name" : "RusaRuka 自由が丘店",
+        "icon" : "fa:fas fa-cake-candles",
         "prefecture" : "東京都",
         "city" : "目黒区",
         "visit_date" : "2021/5/2",
@@ -330,6 +377,7 @@
     },
     {
         "name" : "Mohan Dish",
+        "icon" : "fa:fas fa-wheat-awn",
         "prefecture" : "北海道",
         "city" : "札幌市",
         "visit_date" : "2021/1/13",
@@ -337,6 +385,7 @@
     },
     {
         "name" : "いずみ屋",
+        "icon" : "fa:fas fa-bowl-food",
         "prefecture" : "長野県",
         "city" : "諏訪市",
         "visit_date" : "2020/11/26",
@@ -344,6 +393,7 @@
     },
     {
         "name" : "本手打ちそば 更科",
+        "icon" : "mdi-noodles",
         "prefecture" : "長野県",
         "city" : "茅野市",
         "visit_date" : "2020/11/25",

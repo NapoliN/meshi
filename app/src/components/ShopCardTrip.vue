@@ -4,7 +4,7 @@
         <v-container>
         <v-row>
             <v-col>
-            <h3> <v-icon :icon="`mdi-`+shop.icon" class="mx-2" color="secondary"></v-icon>{{ shop.name }}</h3>
+            <h3> <v-icon :icon="shop.icon" class="mx-2" color="secondary"></v-icon>{{ shop.name }}</h3>
             </v-col>
         </v-row>
         <v-row class="ma-2">
