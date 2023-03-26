@@ -16,7 +16,7 @@
                     <template v-for="tag in shop.tags">
                         <v-hover>
                             <template v-slot:default="{ isHovering, props }">
-                                <v-chip v-bind="props" :elevation="isHovering ? 4 : 0"
+                                <v-chip v-bind="props" :elevation="isHovering ? 4 : 0" class="ma-1"
                                     :color="isHovering ? 'secondary' : 'secondary2'" link @click.stop="toTag(tag)">
                                     <v-icon icon="mdi-tag" class="mx-1"></v-icon> {{ tag }}
                                 </v-chip>
