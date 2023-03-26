@@ -7,10 +7,17 @@
                 <v-list-item>
                   <v-icon icon="mdi-map-marker"></v-icon>{{ this.detail.area }}
                 </v-list-item>
-                
-
                 <v-divider class="my-2"></v-divider>
-
+                <v-list-item>
+                  <b>値段</b>：{{ message_price(this.detail.eval.price) }}
+                </v-list-item>
+                <v-list-item>
+                  <b>量</b>　： {{ message_amount(this.detail.eval.amount) }}
+                </v-list-item>
+                <v-list-item>
+                  <b>時間</b>： {{ message_time(this.detail.eval.time) }}
+                </v-list-item>
+                <v-divider class="my-2"></v-divider>
                 <v-list-item
                   link
                   color="grey-lighten-4"
@@ -84,6 +91,46 @@ export default {
         },
         router_back(){
           this.$router.back()
+        },
+        message_price(price){
+          switch(price){
+            case 1:
+              return '〜800円';
+            case 2:
+              return '800円〜1000円';
+            case 3:
+              return '1000円〜1200円';
+            case 4:
+              return '1200円〜1400円';
+            case 5:
+              return '1400円〜1800円';
+            case 6:
+              return '1800円〜';
+          }
+        },
+        message_amount(amount){
+          switch(amount){
+            case 1:
+              return '少なめ';
+            case 2:
+              return '腹八分';
+            case 3:
+              return 'ちょうどよい';
+            case 4:
+              return '満腹';
+            case 5:
+              return 'きつい';
+          }
+        },
+        message_time(time){
+          switch(time){
+            case 1 :
+              return 'すぐ来る';
+            case 2 :
+              return 'ちょっと待つ'  
+            case 3 :
+              return '結構待つ'
+          }
         }
     }
     };
