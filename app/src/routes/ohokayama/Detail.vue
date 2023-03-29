@@ -9,13 +9,13 @@
                 </v-list-item>
                 <v-divider class="my-2"></v-divider>
                 <v-list-item>
-                  <b>値段</b>：{{ message_price(this.detail.eval.price) }}
+                  <b>値段</b>：{{ message_price(this.detail.eval?.price) }}
                 </v-list-item>
                 <v-list-item>
-                  <b>量</b>　： {{ message_amount(this.detail.eval.amount) }}
+                  <b>量</b>　： {{ message_amount(this.detail.eval?.amount) }}
                 </v-list-item>
                 <v-list-item>
-                  <b>時間</b>： {{ message_time(this.detail.eval.time) }}
+                  <b>時間</b>： {{ message_time(this.detail.eval?.time) }}
                 </v-list-item>
                 <v-divider class="my-2"></v-divider>
                 <v-list-item
@@ -106,6 +106,8 @@ export default {
               return '1400円〜1800円';
             case 6:
               return '1800円〜';
+            default:
+              return '調査中';
           }
         },
         message_amount(amount){
@@ -120,6 +122,8 @@ export default {
               return '満腹';
             case 5:
               return 'きつい';
+            default:
+              return '調査中';
           }
         },
         message_time(time){
@@ -130,6 +134,8 @@ export default {
               return 'ちょっと待つ'  
             case 3 :
               return '結構待つ'
+            default:
+              return '調査中';
           }
         }
     }
