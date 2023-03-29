@@ -106,6 +106,10 @@ export default {
               return '1400円〜1800円';
             case 6:
               return '1800円〜';
+            case 11:
+              return '100円～200円/個'
+            case 12:
+              return '200円～300円/個'
             default:
               return '調査中';
           }
@@ -122,17 +126,19 @@ export default {
               return '満腹';
             case 5:
               return 'きつい';
+            case 999:
+              return '買う量に依る'
             default:
               return '調査中';
           }
         },
         message_time(time){
           switch(time){
-            case 1 :
+            case 3 :
               return 'すぐ来る';
             case 2 :
               return 'ちょっと待つ'  
-            case 3 :
+            case 1 :
               return '結構待つ'
             default:
               return '調査中';

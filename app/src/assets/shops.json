@@ -40,7 +40,12 @@
     "image" : "yamamoto-no-hamburg.jpg",
     "description" : "個人店っぽいが、実はチェーン店のハンバーグ屋。ご飯とお味噌汁がおかわり無料。前菜？として月替わりの自家製野菜ジュースが飲める。値段はやや高めなので、ちょっとしたご馳走。ディナータイムに行くと店外で待たされることもしばしば。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.747959400734!2d139.68112269060103!3d35.60928327844109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e71470001%3A0xb4e7755385cf3276!2z5bGx5pys44Gu44OP44Oz44OQ44O844KwIOWkp-WyoeWxsQ!5e0!3m2!1sja!2sjp!4v1679319131752!5m2!1sja!2sjp",
-    "tags" : ["ハンバーグ","おかわり可"]
+    "tags" : ["ハンバーグ","おかわり可"],
+    "eval" : {
+      "price" : 5,
+      "amount" : 4,
+      "time" : 1
+    }
   },
   {
     "name" : "お好み焼き 佐竹",
@@ -50,7 +55,12 @@
     "image" : "satake.jpg",
     "description" : "地元愛が強そうな広島風お好み焼き屋。行くと必ずトッピング無料券が貰えるので、2回目以降は持っていくべし。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4635.37029139744!2d139.67422955871348!3d35.6080177801966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5164fa3d47b%3A0xab369835b05291ac!2z44GK5aW944G_54S844GNIOS9kOeruQ!5e0!3m2!1sja!2sjp!4v1679319948133!5m2!1sja!2sjp",
-    "tags" : ["おすすめ", "満腹","広島風","飲み"]
+    "tags" : ["おすすめ", "満腹","広島風","飲み"],
+    "eval" : {
+      "price" : 3,
+      "amount" : 3,
+      "time" : 1
+    }
   },
   {
     "name": "やぶそば",
@@ -60,7 +70,12 @@
     "image" : "yabu.jpg",
     "description" : "「ぶ」は婦由来の変体仮名表記。屋号にはそばとついてるが、定食メニューが豊富にある。手頃な値段で腹一杯食べれる。ただし、注文から提供までの時間がそこそこ長いので時間には注意。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.9181763719544!2d139.6836185824465!3d35.60508490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f533d84fe877%3A0xf93b06136fd56bf0!2z5aSn5bKh5bGxIOOChOOBtg!5e0!3m2!1sja!2sjp!4v1679320504700!5m2!1sja!2sjp",
-    "tags" : ["安価", "定食", "満腹","メニューがたくさん"]
+    "tags" : ["安価", "定食", "満腹","メニューがたくさん"],
+    "eval" : {
+      "price" : 2,
+      "amount" : 4,
+      "time" : 1
+    }
   },
   {
     "name": "油そば専門店 歌志軒",
@@ -70,7 +85,12 @@
     "image": "kaziken.jpg",
     "description" : "地下商店街の奥にある店。こころと並んで根強い人気がある。普通、大盛、倍盛、でら盛、どら盛と量のバリエーションが多い。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.8354802788413!2d139.68412235054407!3d35.60712464154348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5321ec8de9b%3A0xaba0fe680f123e25!2z5rK544Gd44Gw5bCC6ZaA5bqXIOatjOW_l-i7kiDlpKflsqHlsbHlupc!5e0!3m2!1sja!2sjp!4v1679320585114!5m2!1sja!2sjp",
-    "tags" : ["安価", "満腹","学割"]
+    "tags" : ["安価", "満腹","学割"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 4,
+      "time" : 3
+    }
   },
   {
     "name": "シッダールタ",
@@ -80,7 +100,12 @@
     "image" : "shidda-ruta.jpg",
     "description" : "ナン！が食べれるお店。チキン、ポーク、マトンと色々種類がある(ビーフはない、それはそう)ので、頻繁に行っても飽きない。カレーはホットでもそこまで辛くない。昼はナンおかわり無料、夜は１枚１００円。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25950.67152975243!2d139.66875313643638!3d35.60716260228121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5321ec8de9b%3A0x11d5e903178154fd!2z44K344OD44OA44O844Or44K_!5e0!3m2!1sja!2sjp!4v1679320674366!5m2!1sja!2sjp",
-    "tags" : ["ナン", "おかわり可", "カレー"]
+    "tags" : ["ナン", "おかわり可", "カレー"],
+    "eval" : {
+      "price" : 3,
+      "amount" : 4,
+      "time" : 1
+    }
   },
 
   {
@@ -89,9 +114,14 @@
     "genre" : "麺類",
     "area" : "大岡山南エリア",
     "image" : "tanya.jpg",
-    "description" : "たんやに・・・行ったんや！w　坦々麺のほか、魚介系出汁のラーメンが食べられる。麺を頼むと時間に応じてサービスをつけられる。個人的には杏仁豆腐が好き。",
+    "description" : "たんやに・・・行ったんや！w 坦々麺のほか、魚介系出汁のラーメンが食べられる。麺を頼むと時間に応じてサービスをつけられる。個人的には杏仁豆腐が好き。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12975.52620336611!2d139.66866633955078!3d35.60598830000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5322c3ed547%3A0x30c873a5b8b0c9a8!2z6bq66aOv5aC0IOOBn-OCk-OChA!5e0!3m2!1sja!2sjp!4v1679320833583!5m2!1sja!2sjp",
-    "tags" : ["担々麺","麺類","ラーメン"]
+    "tags" : ["担々麺","麺類","ラーメン"],
+    "eval" : {
+      "price" : 2,
+      "amount" : 2,
+      "time" : 2
+    }
   },
   {
     "name" : "珈琲館",
@@ -101,7 +131,12 @@
     "image" : "coffee-kan.jpg",
     "description" : "ホットケーキがとても美味しい。ランチメニューは地味に高いので、やや行きにくい。行くと必ずコーヒー５０円引き券がもらえる。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12975.520647637983!2d139.66862342157222!3d35.60602255880376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e1214ed99%3A0x5e0890211bbcde4e!2z54-I55Cy6aSoIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679320877300!5m2!1sja!2sjp",
-    "tags" : ["コーヒー", "軽食","ホットケーキ"]
+    "tags" : ["コーヒー", "軽食","ホットケーキ"],
+    "eval" : {
+      "price" : 3,
+      "amount" : 1,
+      "time" : 2
+    }
   },
   {
     "name": "志波田",
@@ -111,7 +146,12 @@
     "image" : "shibata.jpg",
     "description" : "内装がかなりオシャレ。さか本と趣向が似てるが、こちらは刺身などの海鮮系とのセットが多い。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d950.5291794996896!2d139.6874982690994!3d35.610694126627315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e67b4db61%3A0xf84d85c2306189e1!2z5b-X5rOi55Sw!5e0!3m2!1sja!2sjp!4v1679321038497!5m2!1sja!2sjp",
-    "tags" : ["蕎麦", "海鮮", "定食"]
+    "tags" : ["蕎麦", "海鮮", "定食"],
+    "eval" : {
+      "price" : 5,
+      "amount" : 3,
+      "time" : 1
+    }
   },
   {
     "name" : "そば縁肆 さか本",
@@ -121,7 +161,12 @@
     "image" : "sakamoto.jpg",
     "description" : "一見高級店っぽいが、日替わりランチはお手頃価格(値上げがなければ1050円)で頂ける。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.8864291824423!2d139.6844366758602!3d35.608669175699724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e0c379e71%3A0x5596c5ea9eb3d93d!2z44Gd44Gw57iB6IKG44GV44GL5pys!5e0!3m2!1sja!2sjp!4v1679322689396!5m2!1sja!2sjp",
-    "tags" : ["蕎麦", "おすすめ", "日替わりランチ","定食"]
+    "tags" : ["蕎麦", "おすすめ", "日替わりランチ","定食"],
+    "eval" : {
+      "price" : 3,
+      "amount" : 3,
+      "time" : 1
+    }
   },
   {
     "name" : "Cafe Hermitage",
@@ -131,7 +176,12 @@
     "image" : "hermitage.jpg",
     "description" : "趣味を詰め込んだような味わいのある店内で、インスタ映えしそう。モチモチの麺がこだわり(店主談)。量は少し控えめかもしれない。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.8878624458914!2d139.68382877586018!3d35.60859847570175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e14d9280d%3A0xc101f921ce094d80!2z5aSn5bKh5bGxIOOCq-ODleOCpyDjgqjjg6vjg5_jgr_jg7zjgrjjg6U!5e0!3m2!1sja!2sjp!4v1679322720198!5m2!1sja!2sjp",
-    "tags" : ["パスタ", "おすすめ"]
+    "tags" : ["パスタ", "おすすめ"],
+    "eval" : {
+      "price" : 4,
+      "amount" : 1,
+      "time" : 1
+    }
   },
   {
     "name" : "もつ鍋らく",
@@ -141,7 +191,12 @@
     "image" : "raku.jpg",
     "description" : "メインはもつ鍋の店だが、昼は定食系のランチメニューが食べられる。ランチ限定スタンプカードを貯めると3回に1回100円引きになる。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6487.550572479975!2d139.68053233166543!3d35.60860929461424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5318b0c6d27%3A0x4aeb958f3ebc9b2f!2z44KC44Gk6Y2L44KJ44GPIOWkp-WyoeWxseacrOW6lw!5e0!3m2!1sja!2sjp!4v1679322798345!5m2!1sja!2sjp",
-    "tags" : ["ランチ", "定食", "飲み","鍋"]
+    "tags" : ["ランチ", "定食", "飲み","鍋"],
+    "eval" : {
+      "price" : 2,
+      "amount" : 3,
+      "time" : 1
+    }
   },
   {
     "name" : "サイゼリヤ",
@@ -151,7 +206,12 @@
     "image" : null,
     "description" : "安く、軽く済ませたいときにピッタリ。キャパがかなり大きいので、多人数で行く店の候補。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.830886700453!2d139.68422485054407!3d35.60723794153728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5321ec8de9b%3A0x910255570ec8351c!2z44K144Kk44K844Oq44OkIOWkp-WyoeWxsemnheWJjeW6lw!5e0!3m2!1sja!2sjp!4v1679322840710!5m2!1sja!2sjp",
-    "tags" : ["安価", "イタリアン", "多人数可","メニューがたくさん"]
+    "tags" : ["安価", "イタリアン", "多人数可","メニューがたくさん"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 1,
+      "time" : 2
+    }
   },
   {
     "name" : "ガスト",
@@ -176,7 +236,12 @@
     "image" : "coco1.jpg",
     "description" : "単品で頼むと具がなくて寂しいが、トッピングを載せると結構高くつく。１辛でも結構辛い。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11898.041012396225!2d139.67559290281815!3d35.60982909429916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e7394db9f%3A0x4ca44226e53928ac!2z44Kr44Os44O844OP44Km44K5Q29Db-WjseeVquWxiyDmnbHmgKXlpKflsqHlsbHpp4XliY3lupc!5e0!3m2!1sja!2sjp!4v1679323036867!5m2!1sja!2sjp",
-    "tags" : ["カレー"]
+    "tags" : ["カレー"],
+    "eval" : {
+      "price" : 3,
+      "amount" : 2,
+      "time" : 3
+    }
   },
   {
     "name" : "itokito",
@@ -186,7 +251,12 @@
     "image" : null,
     "description" : "北商店街から1本曲がった道に位置する小さなパン屋さん。よく並んでるのを見かける。狭いパン屋さんは決まって美味しい。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.7143077334995!2d139.68285415054396!3d35.61011324137991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e89506753%3A0x5b9fb53a23daafe4!2z44Kk44OI44Kt44OI!5e0!3m2!1sja!2sjp!4v1679323087413!5m2!1sja!2sjp",
-    "tags" : ["パン屋", "テイクアウトのみ","おすすめ"]
+    "tags" : ["パン屋", "テイクアウトのみ","おすすめ"],
+    "eval" : {
+      "price" : 12,
+      "amount" : 999,
+      "time" : 3
+    }
   },
   {
     "name" : "ショーマッカー",
@@ -196,7 +266,12 @@
     "image" : null,
     "description" : "ドイツ系のパンを取り扱う店。固めのパンが多く、よく噛んで食べることになるため、少ない量でも満腹感が得られる。コスパが良い。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.6750421406273!2d139.68240425054404!3d35.61108164132686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52ec0d62ed9%3A0x43f837caa14587f8!2z44K344On44O844Oe44OD44Kr44O8!5e0!3m2!1sja!2sjp!4v1679323128195!5m2!1sja!2sjp",
-    "tags" : ["パン屋","テイクアウトのみ","ドイツ系"]
+    "tags" : ["パン屋","テイクアウトのみ","ドイツ系"],
+    "eval" : {
+      "price" : 12,
+      "amount" : 999,
+      "time" : 3
+    }
   },
   {
     "name" : "リトルマーメイド",
@@ -206,7 +281,12 @@
     "image" : null,
     "description" : "改札前にあるチェーン店系のパン屋。閉店時間(21時)前になるとセールをやってたりやってなかったりする。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.819777729412!2d139.683213450544!3d35.607511941522304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5685f39d44f%3A0xddda92e74d7aaac1!2z44Oq44OI44Or44Oe44O844Oh44Kk44OJIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679323342664!5m2!1sja!2sjp",
-    "tags" : ["パン屋", "テイクアウトのみ"]
+    "tags" : ["パン屋", "テイクアウトのみ"],
+    "eval" : {
+      "price" : 11,
+      "amount" : 999,
+      "time" : 3
+    }
   },
   {
     "name" : "Himmel",
@@ -246,7 +326,12 @@
     "image" : "meron-pan.jpg",
     "description" : "メロンパン、ラスクの専門店。たまーに食べたくなる素朴な美味しさ。おやつにピッタリ。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.6365706420765!2d139.68149424018745!3d35.60692021298692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f5b05a6e6615%3A0xf69d319707447d2!2z44Oh44Ot44Oz44OR44Oz44OV44Kh44Kv44OI44Oq44O8!5e0!3m2!1sja!2sjp!4v1679323649812!5m2!1sja!2sjp",
-    "tags" : ["パン屋", "テイクアウトのみ"]
+    "tags" : ["パン屋", "テイクアウトのみ"],
+    "eval" : {
+      "price" : 11,
+      "amount" : 999,
+      "time" : 3
+    }
   },
   {
     "name" : "らーめん専科 しま坂",
@@ -256,7 +341,12 @@
     "image" : "shimasaka.jpg",
     "description" : "店主のTwitter垢の思想が強いことで有名な店。ラーメンは普通に美味い。学生限定のメニューがある(家系だったか二郎系だったか・・・)。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.684627507157!2d139.6824013505442!3d35.61084524133976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52eecc40001%3A0x86d8b948f1c244e!2z44KJ44O844KB44KT5bCC56eRIOWkp-WyoeWxseOBl-OBvuWdgg!5e0!3m2!1sja!2sjp!4v1679323687143!5m2!1sja!2sjp",
-    "tags" : ["醤油ラーメン", "家系", "学割", "安価", "麺類"]
+    "tags" : ["醤油ラーメン", "家系", "学割", "安価", "麺類"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 3,
+      "time" : 2
+    }
   },
   {
     "name": "マクドナルド",
@@ -266,7 +356,12 @@
     "image" : "mac.jpg",
     "description": "正門目の前に陣取るマック。ウーバーの注文が非常に多く、昼時は普通に２０組待ちとかが発生するので、モバイルオーダー推奨。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.839769769539!2d139.683150850544!3d35.607018841549234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f531efc4c723%3A0xa26212cf5f6eab8!2z44Oe44Kv44OJ44OK44Or44OJIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679323724643!5m2!1sja!2sjp",
-    "tags": ["安価", "ファストフード","ハンバーガー"]
+    "tags": ["安価", "ファストフード","ハンバーガー"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 1,
+      "time" : 2
+    }
   },
   {
     "name": "餃子の王将",
@@ -276,7 +371,12 @@
     "image" : "ousho.jpg",
     "description" : "学割メニューがあったはず(要確認)。地味に混んでることが多い。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25950.7058456924!2d139.66778163643627!3d35.6070568023405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e0d1f0c0b%3A0x3ec31f6d2cefc998!2z6aSD5a2Q44Gu546L5bCGIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679323761610!5m2!1sja!2sjp",
-    "tags" : ["安価", "中華","メニューがたくさん"]
+    "tags" : ["安価", "中華","メニューがたくさん"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 2,
+      "time" : 2
+    }
   },
   {
     "name" : "ひるがお",
@@ -286,7 +386,12 @@
     "image": "hirugao.jpg",
     "description" : "塩ラーメン&つけめんメインの店。塩ラーメンは替え玉可能。価格はラーメンにしてはちょっと高め。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.7776399981235!2d139.683332250544!3d35.60855124146541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e0e60ace1%3A0x7b4a60d5bab6543b!2z44Gy44KL44GM44GKIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679324044677!5m2!1sja!2sjp",
-    "tags" : ["麺類","塩ラーメン","つけ麺","おかわり可"]
+    "tags" : ["麺類","塩ラーメン","つけ麺","おかわり可"],
+    "eval" : {
+      "price" : 2,
+      "amount" : 3,
+      "time" : 3
+    }
   },
   {
     "name" : "松屋",
@@ -296,7 +401,12 @@
     "image" : null,
     "description" : "三大牛丼チェーン店の一角。２４時間営業でいつでも行けてすぐ食べれるのが強み。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12975.107078170895!2d139.6767393434587!3d35.60857271040847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e739f216d%3A0x1890c43615291dc6!2z5p2-5bGLIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679324106727!5m2!1sja!2sjp",
-    "tags" : ["安価","牛丼","定食"]
+    "tags" : ["安価","牛丼","定食"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 1,
+      "time" : 3
+    }
   },
   {
     "name" : "長浜ナンバーワン",
@@ -306,7 +416,12 @@
     "image": null,
     "description" : "北商店街から曲がった奥にある博多系ラーメンの店。学生向けでカレーライスがつくメニューがあった気がする。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51900.37523312865!2d139.65036726643905!3d35.60865453255787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e0eda99a3%3A0x7af703c249a4f25d!2z6ZW35rWc44OK44Oz44OQ44O844Ov44OzIOWkp-WyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1679324164530!5m2!1sja!2sjp",
-    "tags" : ["麺類", "博多ラーメン", "おかわり可"]
+    "tags" : ["麺類", "博多ラーメン", "おかわり可"],
+    "eval" : {
+      "price" : 2,
+      "amount" : 4,
+      "time" : 3
+    }
   },
   {
     "name" : "漁師料理 九絵",
@@ -316,7 +431,12 @@
     "image" : "kue.jpg",
     "description" : "孤独のグルメで紹介された店で、たまに行列を見かける。海鮮系の定食が食べれる店。値段設定はかなり高いが、その分量もしっかりある。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51900.29126733539!2d139.65019556292702!3d35.60878396551935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f52e3d1d6495%3A0x46bd2999bbbd2a34!2z5ryB5bir5paZ55CGIOS5nee1tQ!5e0!3m2!1sja!2sjp!4v1679324230050!5m2!1sja!2sjp",
-    "tags" : ["海鮮", "高級", "定食"]
+    "tags" : ["海鮮", "高級", "定食"],
+    "eval" : {
+      "price" : 6,
+      "amount" : 4,
+      "time" : 1
+    }
   },
   {
     "name" : "プロムナード ダイニング",
@@ -326,7 +446,12 @@
     "image" : null,
     "description" : "日本風の家庭的なカレーが食べれる店。個人的には焼きカレーがおすすめ。",
     "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51900.20730143394!2d139.6500238594151!3d35.608913398239466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f532289dcf47%3A0x57286b4b1f1ba7b7!2z44OX44Ot44Og44OK44O844OJIOODgOOCpOODi-ODs-OCsA!5e0!3m2!1sja!2sjp!4v1679324334934!5m2!1sja!2sjp",
-    "tags" : ["カレー"]
+    "tags" : ["カレー"],
+    "eval" : {
+      "price" : 3,
+      "amount" : 2,
+      "time" : 1
+    }
   },
   {
     "name" : "赤から",
@@ -334,8 +459,13 @@
     "genre" : "居酒屋",
     "area" : "大岡山駅近エリア",
     "image" : "akakara.jpg",
-    "description" : "大岡山駅近の居酒屋。お手軽に飲むならここ。",
-    "tags" : ["飲み","鍋"]
+    "description" : "大岡山駅近の居酒屋。お手軽に飲むならここ。〆のチーズリゾットが美味い。",
+    "tags" : ["飲み","鍋"],
+    "eval": {
+      "price" : 6,
+      "amount" : 4,
+      "time" : 1
+    }
   },{
     "name" : "日高屋",
     "icon" : "rice",
@@ -343,7 +473,12 @@
     "area" : "大岡山駅近エリア",
     "image" : "hidakaya.jpg",
     "description" : "サイゼリヤ同様、安く済ませられる店。ただ定食とか頼むと意外と高い。人件費削減のためか、昼でもホール一人で回していて地味に待たされる。",
-    "tags" : ["中華","安価","ラーメン"]
+    "tags" : ["中華","安価","ラーメン"],
+    "eval" : {
+      "price" : 1,
+      "amount" : 2,
+      "time" : 2
+    }
   },
   {
     "name" : "たこふじ",
